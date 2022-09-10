@@ -1,0 +1,20 @@
+#Print will print a message in the result display. you begin the command with "print" followed by your message in the following format: ("your message here")
+
+print("Hello World!")
+
+#Variables are simple. think of it like a definition in a dictionary. you can create any term and assign it a definition. for example, x = 1. In your definition, x is 1. Another example is dog = "woof". When providing text as your definition, it must be in quotation marks. 
+
+#Variables can be printed. Create a list of your variables and then use the print command. An example is a variable being x. to print the variable, you just enter print(x). To print multiple variables, use print(x,y,z) and your combined variable will appear. 
+
+x = "I am Python."
+y = "It is nice to meet you!"
+z = "I hope you are having a nice day."
+print(x,y,z)
+
+#To print your multiple variables on separate lines, use the \n command in between variables. so instead of (x,y,z), the solution would be (x + '\n' + y + '\n' + z). The \n is a new line command and should be used in '' when in parenthesis.  
+#Because there are spaces, you will want to use the "+" instead of the comma. 
+
+x = "lets try this again. I'm still learning"
+y = "Hello World! I am Python!"
+z = "It is nice to meet you! I hope you are having a wonderful day!"
+print (x + '\n' + y + '\n' + z)
